@@ -56,7 +56,7 @@ module.exports = async function handler(req, res) {
 
         if (userMessage.toLowerCase() === "hello") {
           replyText =
-            ""您好！我是 AI 智慧客戶維繫服務 Demo 🤖 很高興為您服務！\n\n我是邱于紋的 AI，這次分享的作品是「AI 智慧客戶維繫服務」。這個系統透過 AI 整理客戶資料與互動狀態，提供個人化的客戶維繫建議，協助提升工作效率與服務品質。";！";
+            "您好！我是 AI 智慧客戶維繫服務 Demo 🤖 很高興為您服務！\n\n我是邱于紋的 AI，這次分享的作品是「AI 智慧客戶維繫服務」。這個系統透過 AI 整理客戶資料與互動狀態，提供個人化的客戶維繫建議，協助提升工作效率與服務品質。";
         }
 
         await fetch("https://api.line.me/v2/bot/message/reply", {
